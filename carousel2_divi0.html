@@ -2,8 +2,8 @@
   // var number = [testimonial_count]-1;
 
   // var number = 10 - 1;
-  var animation_timing = 3* [testimonial_count];
-  var carousel_items =  [testimonial_count];
+  var animation_timing = 4*3;
+  var carousel_items = 4;
   var animation_delay_fraction = animation_timing / carousel_items;
   var animation_steps_fraction = 100 / carousel_items;
   var slide_change_timing = 3;
@@ -45,6 +45,7 @@
     -webkit-animation: carousel-animate-vertical ${animation_timing}s linear infinite;
     animation: carousel-animate-vertical ${animation_timing}s linear infinite;
   }`
+
 
   if (carousel_items) {
     for (var i = 1; i < carousel_items; i++) {
@@ -89,8 +90,7 @@
       font-size: 20px;
       margin-top: 10px;
       font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
-      font-weight: 800;
-      font-color: black;
+      font-weight: 400;
     }
 
     @-webkit-keyframes carousel-animate-vertical {
@@ -187,6 +187,66 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="strong-view strong-view-id-1 simple wpmtst-simple" data-count="2">
+  <div class="strong-content strong-normal columns-1">
+    <div class="wpmtst-testimonial testimonial post-403">
+      <div class="wpmtst-testimonial-inner testimonial-inner">
+        <h3 class="wpmtst-testimonial-heading testimonial-heading">Testimonial Test</h3>
+        <div class="wpmtst-testimonial-content testimonial-content">
+          <div class="wpmtst-testimonial-image testimonial-image"><img width="150" height="150" src="https://kirmizhi.com/wp-content/uploads/2021/10/makeup-artist-62-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+              loading="lazy"></div>
+          <div class="maybe-clear"></div>
+          <p>Lorep Ipsumm this is a testimonial</p>
+        </div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-name">Ivan Surya Hutomo</div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-company"><a href="http://ivansuryahutomo.com" target="_blank" rel="nofollow noopener noreferrer">Vanz Production</a></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="wpmtst-testimonial testimonial post-412">
+      <div class="wpmtst-testimonial-inner testimonial-inner">
+        <h3 class="wpmtst-testimonial-heading testimonial-heading">Laurentius</h3>
+        <div class="wpmtst-testimonial-content testimonial-content">
+          <div class="wpmtst-testimonial-image testimonial-image"><img width="150" height="150" src="https://kirmizhi.com/wp-content/uploads/2021/10/brewery-09-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+              loading="lazy"></div>
+          <div class="maybe-clear"></div>
+          <p>Kirmizhi is the Best</p>
+        </div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-name">Laurentius</div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-company"><a href="http://Laurentius" target="_blank" rel="nofollow noopener noreferrer">Laurentius</a></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="wpmtst-testimonial testimonial post-412">
+      <div class="wpmtst-testimonial-inner testimonial-inner">
+        <h3 class="wpmtst-testimonial-heading testimonial-heading">Laurentius</h3>
+        <div class="wpmtst-testimonial-content testimonial-content">
+          <div class="wpmtst-testimonial-image testimonial-image"><img width="150" height="150" src="https://kirmizhi.com/wp-content/uploads/2021/10/brewery-09-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+              loading="lazy"></div>
+          <div class="maybe-clear"></div>
+          <p>Kirmizhi is the Best</p>
+        </div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-name">Laurentius</div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-company"><a href="http://Laurentius" target="_blank" rel="nofollow noopener noreferrer">Laurentius</a></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="wpmtst-testimonial testimonial post-412">
+      <div class="wpmtst-testimonial-inner testimonial-inner">
+        <h3 class="wpmtst-testimonial-heading testimonial-heading">Laurentius</h3>
+        <div class="wpmtst-testimonial-content testimonial-content">
+          <div class="wpmtst-testimonial-image testimonial-image"><img width="150" height="150" src="https://kirmizhi.com/wp-content/uploads/2021/10/brewery-09-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
+              loading="lazy"></div>
+          <div class="maybe-clear"></div>
+          <p>Kirmizhi is the Best</p>
+        </div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-name">Laurentius</div>
+        <div class="wpmtst-testimonial-field testimonial-field testimonial-company"><a href="http://Laurentius" target="_blank" rel="nofollow noopener noreferrer">Laurentius</a></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
 [testimonial_view id="1"]
 
 <div class='wrapper'>
@@ -209,7 +269,7 @@
 
   function doWork() {
     // var number = 2;
-    var number = [testimonial_count];
+    var number = 4;
 
     if (number) {
       for (var i = 0; i < number; i++) {
