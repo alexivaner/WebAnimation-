@@ -8,13 +8,13 @@
   <style>
     #value {
       font: 600 60px system-ui;
-      color: #e94558 ;
+      color: #e94558;
       font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
     }
 
     #business {
       font: 400 16px system-ui;
-      color: #e94558 ;
+      color: #e94558;
       text-align: left;
       font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
     }
@@ -54,7 +54,14 @@
     }
 
     const obj = document.getElementById("value");
-    animateValue(obj, 0, age, 2000);
+
+    var delayInMilliseconds = 2000; //1 second
+
+    setTimeout(function() {
+      //your code to be executed after 1 second
+      animateValue(obj, 0, age, 2000);
+
+    }, delayInMilliseconds);
   </script>
 </body>
 
